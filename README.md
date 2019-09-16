@@ -1,0 +1,1 @@
+# SPA-weather-on-React-Test-task
