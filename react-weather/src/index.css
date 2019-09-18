@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a { 
+  text-decoration: none !important; 
+} 
+
+.img {
+  margin-left: 30px;
+  height: 50px;
+  width: 50px;
+}
+
+.dropdown-menu--cities {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.dropdown-toggle.dropdown-toggle--no-after::after {
+  display: none;
+}
+
+.alert-overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+
+  background: rgba(0, 0, 0, 0.3)
+}
+
+.alert--fixed {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+
+  max-width: 500px;
+
+  transform: translate(-50%, -50%)
+}
